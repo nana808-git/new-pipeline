@@ -4,7 +4,7 @@ locals {
 
   environment = "dev"
 
-  azs = ["ap-northeast-1a", "ap-northeast-1c"]
+  azs = ["us-east-1a", "us-east-1c"]
 }
 
 module "vpc" {

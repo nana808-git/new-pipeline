@@ -30,7 +30,7 @@ variable "subnet_ids" {
 
 variable "region" {
   description = "The region to use"
-  default     = "ap-northeast-1"
+  default     = "us-east-1"
 }
 
 variable "container_name" {
